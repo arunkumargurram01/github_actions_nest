@@ -1,0 +1,28 @@
+#workflow
+name : First Github actions workflow
+
+on : #event trigger 
+  push : 
+    branches:
+      - main
+
+jobs : #defining jobs inside the workflow
+  first-job:
+    name : First job
+    runs-on : ubuntu-latest. #runer enviornment
+
+    steps : #defining steps of the job
+      - name : Print a message
+        run : echo "Hello from github actions step 1
+        
+      - name : Display current directory
+        run : pwd
+      
+      - name : Get Node version
+        run : node --version
+      
+      - name : Display npm version
+        run : npm --version
+
+      
+
