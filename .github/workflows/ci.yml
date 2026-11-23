@@ -9,7 +9,7 @@ on : #event trigger
 jobs : #defining jobs inside the workflow
   first-job:
     name : First job
-    runs-on : ubuntu-latest. #runer enviornment
+    runs-on : ubuntu-latest #runer enviornment
 
     steps : #defining steps of the job
       - name : Print a message
@@ -25,4 +25,4 @@ jobs : #defining jobs inside the workflow
         run : npm --version
 
       
-
+  
