@@ -13,7 +13,7 @@ jobs : #defining jobs inside the workflow
 
     steps : #defining steps of the job
       - name : Print a message
-        run : echo "Hello from github actions step 1
+        run : echo "Hello from github actions step 1"
         
       - name : Display current directory
         run : pwd
